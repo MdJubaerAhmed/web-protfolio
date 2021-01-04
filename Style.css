@@ -50,28 +50,39 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.single-experiences{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 50%;
-    color:white;
-}
+
 .Experience-Area{
     background-image: url("images/exp-bg.PNG");
     background-repeat: no-repeat;
     background-position:left;
+}
 
+.single-experiences{
+   
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    
 
+    
 }
 
 #Full-stack{
     border-left: 7px solid;
-    border-image: linear-gradient;(180deg,lightsalmon,tomato);
-    borders-image-slice: 1px;
-    borod - image-slic:1;
+    border-image: linear-gradient (180deg,lightsalmon,tomato);
+    border-image-slice: 1;
 
-    
+
 }
+#Baby-web{
+
+    border-left: 7px solid;
+    border-image: linear-gradient (180deg,blue ,cyan);
+    border-image-slice: 1;  
+} 
+
+
 footer p{
     text-align:center;
     font-size: 10px;
